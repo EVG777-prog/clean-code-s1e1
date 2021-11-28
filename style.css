@@ -37,6 +37,9 @@
   flex-grow: 1;
 }
 
+#todo__add-task {
+  margin-top: 20px;
+}
 .task-row-wrapper {
   display: flex;
 }
