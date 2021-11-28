@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.head img {
+.head__img {
   width: 100%;
 }
 .head .head__more-inf {
@@ -44,7 +44,7 @@ li, h3 {
 input,button{
   outline:none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -53,12 +53,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="todo__todo__todo__todo__new-task"] {
+.head-text {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,7 +66,7 @@ label[for="todo__todo__todo__todo__new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.task[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,16 +78,16 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.task[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
-label[for="todo__todo__todo__todo__new-task"] {
+.head-text[for="todo__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#todo__todo__todo__todo__new-task {
+#todo__new-task {
   width: 318px;
 }
 
